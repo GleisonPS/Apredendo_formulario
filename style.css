@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(fma.jpg);
+    background-size: cover
+}
+fieldset{
+    text-align: center;
+}
+#titulo{
+    font-size: 30px;
+}
+.cadastro{
+    width: 90%;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
+.botao input{
+    width: 50px;
+}
+fieldset, input{
+    border-radius: 25px;
+    background-color: rgba(208, 218, 226, 0.705);
+}

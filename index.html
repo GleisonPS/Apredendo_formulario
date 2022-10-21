@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="pagina.php" method="post" class="cadastro">
+        <fieldset>
+            <legend id="titulo">Cadastro de dados</legend>
+            <fieldset id="dois">
+                <legend>Dados pessoais</legend>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome"><br>
+                <label for="nacimento">Data de nacimento</label><br>
+                <input type="date" name="nacimento" id=""><br>
+                <label for="CPF">CPF</label><br>
+                <input type="number" name="cpf" id=""><br>
+            </fieldset>
+            <fieldset id="tres">
+                <legend>Contatos</legend>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id=""><br>
+                <label for="endereco">Endereço</label><br>
+                <input type="text" name="endereco" id=""><br>
+                <label for="contato">Contato</label><br>
+                <input type="number" name="contato" id=""><br>
+            </fieldset><br>
+            <fieldset>
+                <label for="">Gênero</label>
+                <input type="radio" name="genero" id="">
+                <input type="radio" name="genero" id="">
+                <input type="radio" name="genero" id="">
+            </fieldset>
+            <fieldset>
+                <select name="estado" id="">selec</select>
+            </fieldset>
+        </fieldset>
+    </form>
+
+</body>
+</html>
